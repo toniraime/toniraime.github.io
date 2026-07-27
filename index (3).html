@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en" data-mode="night">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'self'; base-uri 'self'; form-action 'self'; object-src 'none'">
+<title>Store — The Container</title>
+<meta name="description" content="The Container merch store is being loaded. First drop coming soon — sign up to be notified.">
+<meta name="theme-color" content="#131419">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/img/apple-touch.png">
+<meta property="og:site_name" content="The Container">
+<meta property="og:title" content="Store — The Container">
+<meta property="og:description" content="The Container merch store is being loaded. First drop coming soon — sign up to be notified.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="/assets/img/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preload" href="/assets/fonts/space-grotesk-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/host-grotesk-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/lct-ptex-600.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/main.css">
+<script src="/assets/js/theme.js"></script>
+<script src="/assets/js/main.js" defer></script>
+</head>
+<body><a class="skip" href="#main">Skip to content</a>
+<div class="loader" aria-hidden="true">
+  <svg class="pixelload" viewBox="0 0 64 60" fill="none" role="img" aria-label="Pixel crane lowering a container">
+  <g fill="currentColor">
+    <rect x="4" y="2" width="56" height="4"/>
+    <rect x="4" y="6" width="4" height="4"/><rect x="56" y="6" width="4" height="4"/>
+  </g>
+  <rect class="px-blink" x="58" y="0" width="2" height="2" fill="var(--dock, #5b5f66)"/>
+  <g class="px-cable"><rect x="31" y="6" width="2" height="10" fill="currentColor"/></g>
+  <g class="px-drop">
+    <rect x="30" y="16" width="4" height="2" fill="currentColor"/>
+    <rect x="31" y="18" width="2" height="2" fill="currentColor"/>
+    <g fill="currentColor" opacity=".85">
+      <rect x="28" y="20" width="2" height="2"/><rect x="26" y="22" width="2" height="2"/><rect x="24" y="24" width="2" height="2"/>
+      <rect x="34" y="20" width="2" height="2"/><rect x="36" y="22" width="2" height="2"/><rect x="38" y="24" width="2" height="2"/>
+    </g>
+    <rect x="20" y="26" width="24" height="12" fill="#c7c9cc"/>
+    <g fill="#131419" opacity=".38">
+      <rect x="26" y="26" width="2" height="12"/><rect x="32" y="26" width="2" height="12"/><rect x="38" y="26" width="2" height="12"/>
+    </g>
+    <g fill="#131419" opacity=".6">
+      <rect x="20" y="26" width="2" height="2"/><rect x="42" y="26" width="2" height="2"/>
+      <rect x="20" y="36" width="2" height="2"/><rect x="42" y="36" width="2" height="2"/>
+    </g>
+  </g>
+  <rect x="6" y="56" width="52" height="2" fill="currentColor" opacity=".6"/>
+</svg>
+  <img src="/assets/img/logo-clean-white.svg" alt="" width="86" height="100">
+  <p class="loader__label">Loading <b>the container</b></p>
+</div>
+<div class="sweep" aria-hidden="true"></div>
+<header class="site-head">
+  <div class="wrap site-head__in">
+    <a class="brand" href="/" aria-label="The Container — home">
+      <img class="night-only" src="/assets/img/logo-h-white.svg" alt="The Container" width="156" height="30">
+      <img class="day-only" src="/assets/img/logo-h-black.svg" alt="The Container" width="156" height="30">
+    </a>
+    <nav class="nav" id="nav" aria-label="Main">
+      <a href="/events/">Events</a>
+      <a href="/about/">About</a>
+      <a href="/media/">Media</a>
+      <a href="/store/" aria-current="page">Store</a>
+      <a href="/contact/">Contact</a>
+    </nav>
+    <button class="mode-toggle" type="button" aria-pressed="true" aria-label="Switch between day and night mode">
+      <svg class="mode-toggle__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+    <g class="sun"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.4v2.4M12 19.2v2.4M2.4 12h2.4M19.2 12h2.4M4.7 4.7l1.7 1.7M17.6 17.6l1.7 1.7M19.3 4.7l-1.7 1.7M6.4 17.6l-1.7 1.7"/></g>
+    <g class="moon"><path d="M19.8 13.1A7.6 7.6 0 1 1 10.9 4.2a6 6 0 0 0 8.9 8.9z"/></g>
+  </svg>
+      <span class="mode-toggle__label"></span>
+    </button>
+    <button class="burger" type="button" aria-label="Menu" aria-expanded="false" aria-controls="nav">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+<main id="main">
+  <section class="soon">
+    <div class="hero__bg"></div>
+    <div class="wrap">
+      <svg class="crane-scene" viewBox="0 0 360 240" fill="none" role="img" aria-label="Gantry crane loading a container onto a truck">
+  <!-- background container stacks -->
+  <g stroke="currentColor" stroke-opacity=".3" stroke-width="2">
+    <rect x="16" y="186" width="46" height="18" rx="1"/>
+    <rect x="16" y="166" width="46" height="18" rx="1"/>
+    <rect x="16" y="146" width="46" height="18" rx="1"/>
+    <rect x="300" y="186" width="44" height="18" rx="1"/>
+    <rect x="300" y="166" width="44" height="18" rx="1"/>
+  </g>
+  <!-- boom girder detail -->
+  <g stroke="currentColor" stroke-opacity=".45" stroke-width="1.5">
+    <path d="M14 62h332"/>
+    <path d="M30 59l10 3M60 59l10 3M90 59l10 3M120 59l10 3M210 59l10 3M240 59l10 3M300 59l10 3M330 59l10 3"/>
+  </g>
+  <!-- stay cables -->
+  <g stroke="currentColor" stroke-width="2" stroke-opacity=".85">
+    <path d="M262 22 L18 52"/><path d="M262 22 L344 50"/>
+  </g>
+  <!-- hoist cables (extend from trolley) -->
+  <g class="ld-cable"><path d="M164 68v12M182 68v12" stroke="currentColor" stroke-width="2"/></g>
+  <!-- spreader -->
+  <g class="ld-spread" fill="currentColor">
+    <rect x="150" y="80" width="46" height="5" rx="1"/>
+    <rect x="150" y="85" width="4" height="4"/><rect x="192" y="85" width="4" height="4"/>
+    <rect x="160" y="85" width="3" height="2"/><rect x="183" y="85" width="3" height="2"/>
+  </g>
+  <!-- container -->
+  <g class="ld-box">
+    <rect x="146" y="86" width="54" height="26" rx="1" fill="var(--brushed, #c7c9cc)"/>
+    <path d="M154 86v26M161 86v26M168 86v26M175 86v26M182 86v26M189 86v26" stroke="#131419" stroke-opacity=".38" stroke-width="2"/>
+    <g fill="#131419" opacity=".55">
+      <rect x="147" y="87" width="4" height="4"/><rect x="195" y="87" width="4" height="4"/>
+      <rect x="147" y="107" width="4" height="4"/><rect x="195" y="107" width="4" height="4"/>
+    </g>
+  </g>
+  <!-- truck -->
+  <g class="ld-truck">
+    <rect x="130" y="196" width="86" height="5" rx="1" fill="currentColor"/>
+    <rect x="108" y="180" width="24" height="21" rx="2" fill="currentColor"/>
+    <rect x="112" y="184" width="10" height="8" rx="1" fill="var(--ld-bg, #131419)"/>
+    <g fill="currentColor">
+      <circle cx="122" cy="217" r="6"/><circle cx="162" cy="217" r="6"/><circle cx="202" cy="217" r="6"/>
+    </g>
+    <g fill="var(--ld-bg, #131419)">
+      <circle cx="122" cy="217" r="2"/><circle cx="162" cy="217" r="2"/><circle cx="202" cy="217" r="2"/>
+    </g>
+  </g>
+  <!-- gantry -->
+  <g fill="currentColor">
+    <rect x="10" y="52" width="340" height="7" rx="1"/>
+    <rect x="258" y="18" width="8" height="36" rx="1"/>
+    <rect x="70" y="59" width="8" height="150"/>
+    <rect x="262" y="59" width="8" height="150"/>
+    <rect x="70" y="122" width="200" height="5"/>
+    <rect x="56" y="208" width="36" height="8" rx="2"/>
+    <rect x="248" y="208" width="36" height="8" rx="2"/>
+    <rect x="288" y="34" width="34" height="18" rx="1"/><rect x="316" y="38" width="8" height="7" rx="1" fill="var(--ld-bg, #131419)" opacity=".85"/>
+    <g class="ld-trolley"><rect x="156" y="59" width="34" height="9" rx="1"/></g>
+    <circle cx="66" cy="220" r="4"/><circle cx="82" cy="220" r="4"/>
+    <circle cx="258" cy="220" r="4"/><circle cx="274" cy="220" r="4"/>
+  </g>
+  <circle class="blink" cx="262" cy="12" r="3.4" fill="var(--dock, #5b5f66)"/>
+  <!-- rail / ground -->
+  <rect x="6" y="224" width="348" height="2" fill="currentColor" opacity=".5"/>
+</svg>
+      <p class="hero__plate">
+        <span class="tag">Cargo: merch</span>
+        <span class="tag">Heavy loaded</span>
+        <span class="tag">Drop 001 — TBA</span>
+      </p>
+      <h1 class="display">Store<br><span class="accent">soon</span></h1>
+      <p class="lede">The merch container is being loaded. Tees, caps and things you didn't know you needed — first drop announced on the manifest list.</p>
+      <div class="section--tight">
+        <form data-lead="merch" method="post" action="/api/lead" novalidate>
+          <input type="hidden" name="type" value="merch">
+          <input type="email" name="email" required placeholder="your@email.com" aria-label="Email address" autocomplete="email">
+          <input class="hp" type="text" name="cnt_extra" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <button class="btn btn--solid" type="submit">Notify me</button>
+        </form>
+        <p class="form-status" data-status role="status"></p>
+      </div>
+    </div>
+  </section>
+</main>
+<div class="hazard" aria-hidden="true"></div>
+<footer class="site-foot">
+  <div class="wrap site-foot__in">
+    <div>
+      <img class="night-only" src="/assets/img/logo-clean-white.svg" alt="The Container" width="72" height="84">
+      <img class="day-only" src="/assets/img/logo-clean-black.svg" alt="The Container" width="72" height="84">
+      <p class="foot-tag">Culture, contained <span class="o">●</span> Culture by day <span class="o">●</span> Culture by night</p>
+    </div>
+    <div>
+      <p class="foot-h">Navigate</p>
+      <ul>
+        <li><a href="/events/">Events</a></li>
+        <li><a href="/about/">About</a></li>
+        <li><a href="/media/">Media</a></li>
+        <li><a href="/store/">Store</a></li>
+        <li><a href="/contact/">Contact</a></li>
+        <li><a href="/legal/">Legal &amp; privacy</a></li>
+      </ul>
+    </div>
+    <div>
+      <p class="foot-h">Contact</p>
+      <ul>
+        <li><a href="https://maps.google.com/?q=North+Obhur,+Jeddah,+Saudi+Arabia" target="_blank" rel="noopener noreferrer">North Obhur, Jeddah, Saudi Arabia</a></li>
+        <li><a href="mailto:support@thecontainer.group">support@thecontainer.group</a></li>
+        <li><a href="https://www.instagram.com/thecontainerlive" target="_blank" rel="noopener noreferrer">Instagram — @thecontainerlive</a></li>
+        <!-- Add more socials here when live (TikTok, SoundCloud, YouTube…) -->
+      </ul>
+    </div>
+  </div>
+  <div class="wrap site-foot__legal">
+    <span>© <span data-year>2026</span> Containers Entertainment — All rights reserved</span>
+    <span>The Container</span>
+  </div>
+</footer>
+</body>
+</html>

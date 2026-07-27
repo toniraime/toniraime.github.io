@@ -1,0 +1,340 @@
+<!doctype html>
+<html lang="en" data-mode="night">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'self'; base-uri 'self'; form-action 'self'; object-src 'none'">
+<title>The Container — Culture, Contained.</title>
+<meta name="description" content="The Container — North Obhur, Jeddah. Art galleries, fashion exhibitions, cinema club and workshops by day; a music club on Funktion-One sound by night.">
+<meta name="theme-color" content="#131419">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/img/apple-touch.png">
+<meta property="og:site_name" content="The Container">
+<meta property="og:title" content="The Container — Culture, Contained.">
+<meta property="og:description" content="The Container — North Obhur, Jeddah. Art galleries, fashion exhibitions, cinema club and workshops by day; a music club on Funktion-One sound by night.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="/assets/img/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preload" href="/assets/fonts/space-grotesk-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/host-grotesk-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/lct-ptex-600.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/main.css">
+<script src="/assets/js/theme.js"></script>
+<script src="/assets/js/main.js" defer></script>
+</head>
+<body><a class="skip" href="#main">Skip to content</a>
+<div class="loader" aria-hidden="true">
+  <svg class="pixelload" viewBox="0 0 64 60" fill="none" role="img" aria-label="Pixel crane lowering a container">
+  <g fill="currentColor">
+    <rect x="4" y="2" width="56" height="4"/>
+    <rect x="4" y="6" width="4" height="4"/><rect x="56" y="6" width="4" height="4"/>
+  </g>
+  <rect class="px-blink" x="58" y="0" width="2" height="2" fill="var(--dock, #5b5f66)"/>
+  <g class="px-cable"><rect x="31" y="6" width="2" height="10" fill="currentColor"/></g>
+  <g class="px-drop">
+    <rect x="30" y="16" width="4" height="2" fill="currentColor"/>
+    <rect x="31" y="18" width="2" height="2" fill="currentColor"/>
+    <g fill="currentColor" opacity=".85">
+      <rect x="28" y="20" width="2" height="2"/><rect x="26" y="22" width="2" height="2"/><rect x="24" y="24" width="2" height="2"/>
+      <rect x="34" y="20" width="2" height="2"/><rect x="36" y="22" width="2" height="2"/><rect x="38" y="24" width="2" height="2"/>
+    </g>
+    <rect x="20" y="26" width="24" height="12" fill="#c7c9cc"/>
+    <g fill="#131419" opacity=".38">
+      <rect x="26" y="26" width="2" height="12"/><rect x="32" y="26" width="2" height="12"/><rect x="38" y="26" width="2" height="12"/>
+    </g>
+    <g fill="#131419" opacity=".6">
+      <rect x="20" y="26" width="2" height="2"/><rect x="42" y="26" width="2" height="2"/>
+      <rect x="20" y="36" width="2" height="2"/><rect x="42" y="36" width="2" height="2"/>
+    </g>
+  </g>
+  <rect x="6" y="56" width="52" height="2" fill="currentColor" opacity=".6"/>
+</svg>
+  <img src="/assets/img/logo-clean-white.svg" alt="" width="86" height="100">
+  <p class="loader__label">Loading <b>the container</b></p>
+</div>
+<div class="sweep" aria-hidden="true"></div>
+<header class="site-head">
+  <div class="wrap site-head__in">
+    <a class="brand" href="/" aria-label="The Container — home">
+      <img class="night-only" src="/assets/img/logo-h-white.svg" alt="The Container" width="156" height="30">
+      <img class="day-only" src="/assets/img/logo-h-black.svg" alt="The Container" width="156" height="30">
+    </a>
+    <nav class="nav" id="nav" aria-label="Main">
+      <a href="/events/">Events</a>
+      <a href="/about/">About</a>
+      <a href="/media/">Media</a>
+      <a href="/store/">Store</a>
+      <a href="/contact/">Contact</a>
+    </nav>
+    <button class="mode-toggle" type="button" aria-pressed="true" aria-label="Switch between day and night mode">
+      <svg class="mode-toggle__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+    <g class="sun"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.4v2.4M12 19.2v2.4M2.4 12h2.4M19.2 12h2.4M4.7 4.7l1.7 1.7M17.6 17.6l1.7 1.7M19.3 4.7l-1.7 1.7M6.4 17.6l-1.7 1.7"/></g>
+    <g class="moon"><path d="M19.8 13.1A7.6 7.6 0 1 1 10.9 4.2a6 6 0 0 0 8.9 8.9z"/></g>
+  </svg>
+      <span class="mode-toggle__label"></span>
+    </button>
+    <button class="burger" type="button" aria-label="Menu" aria-expanded="false" aria-controls="nav">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+<main id="main">
+
+  <!-- ============================== HERO -->
+  <section class="hero hero--photo">
+    <div class="hero__bg">
+      <video class="hero__photo night-only" autoplay muted loop playsinline preload="auto"
+             poster="/assets/media/venue-night-1600.jpg" src="/assets/media/teaser-720.mp4"
+             aria-hidden="true"></video>
+      <img class="hero__photo day-only" src="/assets/media/venue-day-1600.jpg"
+           srcset="/assets/media/venue-day-1200.jpg 1200w, /assets/media/venue-day-1600.jpg 1600w"
+           sizes="100vw" alt="The Container venue in daylight" fetchpriority="high">
+    </div>
+    <div class="wrap">
+      <p class="hero__plate">
+        <span class="tag">CNT-001</span>
+        <span class="tag night-only">Night mode</span>
+        <span class="tag day-only">Day mode</span>
+        <span class="tag">Jeddah — Saudi Arabia</span>
+        <span class="tag">Culture, contained</span>
+      </p>
+      <h1 class="display">
+        <span class="day-only">Culture<br><span class="accent">by day</span></span>
+        <span class="night-only">Culture<br><span class="accent">by night</span></span>
+      </h1>
+      <div class="hero__sub">
+        <p class="lede day-only">Art galleries, fashion exhibitions, the cinema club, live performances, workshops — daylight inside the box. When the sun sets, the sound takes over.</p>
+        <p class="lede night-only">A music club built from steel and sound. Funktion-One system, lights down, doors late. By sunrise, the cinema takes the room back.</p>
+        <div class="hero__cta">
+          <a class="btn btn--solid" href="/events/">View events</a>
+          <span class="btn btn--soon"><span class="pulse"></span>Booking soon</span>
+        </div>
+      </div>
+    </div>
+    <div class="cargo-strip">
+      <div class="wrap cargo-strip__in">
+        <div class="cargo-cell">Manifest 01<b>Culture by day</b></div>
+        <div class="cargo-cell">Manifest 02<b>Culture by night</b></div>
+        <div class="cargo-cell">Cargo<b>Merch — soon</b></div>
+        <div class="cargo-cell">Location<b>North Obhur, Jeddah</b></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================== MARQUEE -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee__track">
+      <span>Culture, contained <b class="o">●</b> The Container <b class="o">●</b> Culture by day <b class="o">●</b> Culture by night <b class="o">●</b> Heavyweight sound <b class="o">●</b> Loaded <b class="o">●</b></span>
+      <span>Culture, contained <b class="o">●</b> The Container <b class="o">●</b> Culture by day <b class="o">●</b> Culture by night <b class="o">●</b> Heavyweight sound <b class="o">●</b> Loaded <b class="o">●</b></span>
+    </div>
+  </div>
+
+  <!-- ============================== TWO WORLDS -->
+  <section class="section">
+    <div class="wrap">
+      <p class="eyebrow reveal">Two worlds</p>
+      <div class="section-head reveal">
+        <h2 class="display">Pick your side</h2>
+        <a class="link-arrow" href="/about/">Our story <svg width="12" height="14" viewBox="0 0 172.63 204.85" fill="currentColor" aria-hidden="true"><polygon points="126.48 118.57 .06 118.54 0 86.35 126.88 86.3 63.5 22.81 86.32 0 172.57 86.22 172.63 118.54 127.32 118.57 127.04 119.56 127.05 164.08 86.32 204.85 63.55 182.07 126.08 119.5 126.48 118.57"/></svg></a>
+      </div>
+      <div class="worlds">
+        <a class="world world--day reveal" href="/events/?w=day" data-set-mode="day">
+          <div class="world__art">
+            <img src="/assets/media/world-day.jpg" alt="" loading="lazy">
+          </div>
+          <h3>The day<br>world</h3>
+          <p class="world__desc">Mornings for making, afternoons for looking. Workshops that get your hands dirty, galleries that slow you down, fashion on real bodies, films worth arguing about — and live performances while the sun still owns the room.</p>
+          <ul><li>Art galleries</li><li>Fashion exhibitions</li><li>Cinema club</li><li>Live performances</li><li>Workshops</li></ul>
+          <span class="world__go">Step into daylight <svg width="12" height="14" viewBox="0 0 172.63 204.85" fill="currentColor" aria-hidden="true"><polygon points="126.48 118.57 .06 118.54 0 86.35 126.88 86.3 63.5 22.81 86.32 0 172.57 86.22 172.63 118.54 127.32 118.57 127.04 119.56 127.05 164.08 86.32 204.85 63.55 182.07 126.08 119.5 126.48 118.57"/></svg></span>
+        </a>
+        <a class="world world--night reveal" data-delay="1" href="/events/?w=night" data-set-mode="night">
+          <div class="world__art">
+            <img src="/assets/media/world-night.jpg" alt="" loading="lazy">
+          </div>
+          <h3>The night<br>world</h3>
+          <p class="world__desc">Then the lights drop and the box changes owners. A music club on Funktion-One sound, live shows, entertainment with the volume up — doors late, mornings optional.</p>
+          <ul><li>Music club</li><li>Live shows</li><li>Entertainment</li></ul>
+          <span class="world__go">Step into the dark <svg width="12" height="14" viewBox="0 0 172.63 204.85" fill="currentColor" aria-hidden="true"><polygon points="126.48 118.57 .06 118.54 0 86.35 126.88 86.3 63.5 22.81 86.32 0 172.57 86.22 172.63 118.54 127.32 118.57 127.04 119.56 127.05 164.08 86.32 204.85 63.55 182.07 126.08 119.5 126.48 118.57"/></svg></span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================== FEATURED EVENTS -->
+  <section class="section" id="events">
+    <div class="wrap">
+      <p class="eyebrow reveal">Now loading</p>
+      <div class="section-head reveal">
+        <h2 class="display">Next up</h2>
+        <a class="link-arrow" href="/events/">All events <svg width="12" height="14" viewBox="0 0 172.63 204.85" fill="currentColor" aria-hidden="true"><polygon points="126.48 118.57 .06 118.54 0 86.35 126.88 86.3 63.5 22.81 86.32 0 172.57 86.22 172.63 118.54 127.32 118.57 127.04 119.56 127.05 164.08 86.32 204.85 63.55 182.07 126.08 119.5 126.48 118.57"/></svg></a>
+      </div>
+      <div class="event-grid">
+<article class="event reveal" data-kind="night" data-ticket-url="">
+  <div class="event__art">
+    <svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+      <rect width="400" height="300" fill="#0f1016"/>
+      <circle cx="200" cy="320" r="210" fill="#5b5f66" opacity=".22"/>
+      <circle cx="200" cy="320" r="150" fill="#5b5f66" opacity=".3"/>
+      <circle cx="200" cy="320" r="95" fill="#c7c9cc"/>
+      <g stroke="#f4f4f6" stroke-opacity=".14"><circle cx="200" cy="320" r="250" fill="none"/><circle cx="200" cy="320" r="290" fill="none"/></g>
+      <g fill="#f4f4f6" opacity=".2" transform="translate(288 34) scale(1.1)">
+      <rect x="18" y="0" width="28" height="10"/>
+      <rect x="18" y="30" width="28" height="10"/>
+      <rect x="8" y="10" width="8" height="20"/>
+      <rect x="48" y="10" width="8" height="20"/>
+    </g>
+      <path d="M0 60h400" stroke="#f4f4f6" stroke-opacity=".08"/>
+    </svg>
+    <span class="event__kind">Night</span>
+    <span class="event__date"><b>03</b><span>Sep</span></span>
+  </div>
+  <div class="event__body">
+    <p class="event__meta">Thu · Week 01 · Doors — late</p>
+    <h3>Maz + Laolu</h3>
+    <p class="event__desc">Opening week. Maz and Laolu take the box first, with Dish Dash and BKR Eyad in support.</p>
+    <div class="event__foot" data-ticket-slot>
+      <span class="btn btn--soon"><span class="pulse"></span>Booking soon</span>
+    </div>
+  </div>
+</article>
+<article class="event reveal" data-delay="1" data-kind="night" data-ticket-url="">
+  <div class="event__art">
+    <svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+      <rect width="400" height="300" fill="#0d0e13"/>
+      <polygon points="60,0 180,300 60,300" fill="#5b5f66" opacity=".85"/>
+      <polygon points="200,0 320,300 200,300" fill="#f4f4f6" opacity=".1"/>
+      <polygon points="300,0 400,240 400,300 340,300" fill="#5b5f66" opacity=".3"/>
+      <g fill="#f4f4f6" opacity=".9" transform="translate(30 30) scale(0.9)">
+      <rect x="18" y="0" width="28" height="10"/>
+      <rect x="18" y="30" width="28" height="10"/>
+      <rect x="8" y="10" width="8" height="20"/>
+      <rect x="48" y="10" width="8" height="20"/>
+    </g>
+      <path d="M0 282h400" stroke="#f4f4f6" stroke-opacity=".35" stroke-width="2"/>
+    </svg>
+    <span class="event__kind">Night</span>
+    <span class="event__date"><b>04</b><span>Sep</span></span>
+  </div>
+  <div class="event__body">
+    <p class="event__meta">Fri · Week 01 · Doors — late</p>
+    <h3>Sosa + Fluer Shore</h3>
+    <p class="event__desc">Week one continues: Sosa and Fluer Shore, joined by Vinyl Mode and Blacky Future Loop.</p>
+    <div class="event__foot" data-ticket-slot>
+      <span class="btn btn--soon"><span class="pulse"></span>Booking soon</span>
+    </div>
+  </div>
+</article>
+<article class="event reveal" data-delay="2" data-kind="night" data-ticket-url="">
+  <div class="event__art">
+    <svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+      <rect width="400" height="300" fill="#0f1016"/>
+      <g stroke="#5b5f66" stroke-width="10" stroke-opacity=".9">
+        <path d="M-40 300L200 -40" /><path d="M40 300L280 -40" opacity=".45"/><path d="M120 300L360 -40" opacity=".2"/>
+      </g>
+      <g fill="#f4f4f6" opacity=".85" transform="translate(292 210) scale(1.1)">
+      <rect x="18" y="0" width="28" height="10"/>
+      <rect x="18" y="30" width="28" height="10"/>
+      <rect x="8" y="10" width="8" height="20"/>
+      <rect x="48" y="10" width="8" height="20"/>
+    </g>
+      <path d="M0 40h400" stroke="#f4f4f6" stroke-opacity=".12"/>
+    </svg>
+    <span class="event__kind">Night</span>
+    <span class="event__date"><b>25</b><span>Sep</span></span>
+  </div>
+  <div class="event__body">
+    <p class="event__meta">Fri · Week 04 · Doors — late</p>
+    <h3>Baron + Khenya</h3>
+    <p class="event__desc">Closing week of the month: Baron and Khenya, with Malkin and Soufis in support.</p>
+    <div class="event__foot" data-ticket-slot>
+      <span class="btn btn--soon"><span class="pulse"></span>Booking soon</span>
+    </div>
+  </div>
+</article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================== THE SOUND -->
+  <section class="section" id="sound">
+    <div class="wrap">
+      <p class="eyebrow reveal">Heavyweight — Funktion-One</p>
+      <div class="section-head reveal">
+        <h2 class="display">Built to be felt</h2>
+        <a class="link-arrow" href="/about/">The venue <svg width="12" height="14" viewBox="0 0 172.63 204.85" fill="currentColor" aria-hidden="true"><polygon points="126.48 118.57 .06 118.54 0 86.35 126.88 86.3 63.5 22.81 86.32 0 172.57 86.22 172.63 118.54 127.32 118.57 127.04 119.56 127.05 164.08 86.32 204.85 63.55 182.07 126.08 119.5 126.48 118.57"/></svg></a>
+      </div>
+      <div class="split">
+        <div class="body-copy reveal">
+          <p>At the centre of The Container is a <strong>Funktion-One sound system</strong> — engineered, tuned and positioned for this room and no other. Clarity at every volume, pressure you can feel, and detail that survives to the very back of the box.</p>
+          <p>It's the difference between hearing a night and being inside one. Come stand in front of it.</p>
+        </div>
+        <div class="reveal" data-delay="1">
+          <div class="cargo-strip">
+            <div class="cargo-strip__in cargo-strip__in--stack">
+              <div class="cargo-cell">System<b>Funktion-One</b></div>
+              <div class="cargo-cell">Tuning<b>Built for the box</b></div>
+              <div class="cargo-cell">Result<b>Heard &amp; felt</b></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================== NEWSLETTER -->
+  <section class="band">
+    <div class="wrap band__in">
+      <div>
+        <p class="eyebrow">Manifest list</p>
+        <h2 class="display reveal">Don't miss<br>the drop</h2>
+      </div>
+      <div>
+        <form data-lead="newsletter" method="post" action="/api/lead" novalidate>
+          <input type="hidden" name="type" value="newsletter">
+          <input type="email" name="email" required placeholder="your@email.com" aria-label="Email address" autocomplete="email">
+          <input class="hp" type="text" name="cnt_extra" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <button class="btn btn--solid" type="submit">Sign up</button>
+        </form>
+        <p class="form-status" data-status role="status"></p>
+        <p class="form-note">Event drops, ticket news, merch. No spam — only cargo.</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+<div class="hazard" aria-hidden="true"></div>
+<footer class="site-foot">
+  <div class="wrap site-foot__in">
+    <div>
+      <img class="night-only" src="/assets/img/logo-clean-white.svg" alt="The Container" width="72" height="84">
+      <img class="day-only" src="/assets/img/logo-clean-black.svg" alt="The Container" width="72" height="84">
+      <p class="foot-tag">Culture, contained <span class="o">●</span> Culture by day <span class="o">●</span> Culture by night</p>
+    </div>
+    <div>
+      <p class="foot-h">Navigate</p>
+      <ul>
+        <li><a href="/events/">Events</a></li>
+        <li><a href="/about/">About</a></li>
+        <li><a href="/media/">Media</a></li>
+        <li><a href="/store/">Store</a></li>
+        <li><a href="/contact/">Contact</a></li>
+        <li><a href="/legal/">Legal &amp; privacy</a></li>
+      </ul>
+    </div>
+    <div>
+      <p class="foot-h">Contact</p>
+      <ul>
+        <li><a href="https://maps.google.com/?q=North+Obhur,+Jeddah,+Saudi+Arabia" target="_blank" rel="noopener noreferrer">North Obhur, Jeddah, Saudi Arabia</a></li>
+        <li><a href="mailto:support@thecontainer.group">support@thecontainer.group</a></li>
+        <li><a href="https://www.instagram.com/thecontainerlive" target="_blank" rel="noopener noreferrer">Instagram — @thecontainerlive</a></li>
+        <!-- Add more socials here when live (TikTok, SoundCloud, YouTube…) -->
+      </ul>
+    </div>
+  </div>
+  <div class="wrap site-foot__legal">
+    <span>© <span data-year>2026</span> Containers Entertainment — All rights reserved</span>
+    <span>The Container</span>
+  </div>
+</footer>
+</body>
+</html>
