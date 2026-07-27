@@ -1,8 +1,0 @@
-# THE CONTAINER — robots.txt
-# Allow every crawler to index the whole site.
-User-agent: *
-Allow: /
-
-# Once your production domain is chosen, add the sitemap line below
-# (uncomment it and swap in the real domain):
-# Sitemap: https://YOUR-DOMAIN/sitemap.xml

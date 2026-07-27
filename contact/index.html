@@ -4,14 +4,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'self'; base-uri 'self'; form-action 'self'; object-src 'none'">
-<title>Lost cargo — The Container</title>
-<meta name="description" content="This page went missing at sea.">
+<title>Contact & FAQ — The Container</title>
+<meta name="description" content="Questions, bookings, press or collaborations — get in touch with The Container team.">
 <meta name="theme-color" content="#131419">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/assets/img/apple-touch.png">
 <meta property="og:site_name" content="The Container">
-<meta property="og:title" content="Lost cargo — The Container">
-<meta property="og:description" content="This page went missing at sea.">
+<meta property="og:title" content="Contact & FAQ — The Container">
+<meta property="og:description" content="Questions, bookings, press or collaborations — get in touch with The Container team.">
 <meta property="og:type" content="website">
 <meta property="og:image" content="/assets/img/og.png">
 <meta name="twitter:card" content="summary_large_image">
@@ -64,7 +64,7 @@
       <a href="/about/">About</a>
       <a href="/media/">Media</a>
       <a href="/store/">Store</a>
-      <a href="/contact/">Contact</a>
+      <a href="/contact/" aria-current="page">Contact</a>
     </nav>
     <button class="mode-toggle" type="button" aria-pressed="true" aria-label="Switch between day and night mode">
       <svg class="mode-toggle__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
@@ -79,11 +79,81 @@
   </div>
 </header>
 <main id="main">
-  <section class="lost">
-    <p class="eyebrow">Cargo not found</p>
-    <h1 class="display">404</h1>
-    <p class="lede">This container went missing at sea. The rest of the shipment is safe.</p>
-    <p><a class="btn btn--solid" href="/">Back to the dock</a></p>
+  <section class="page-head">
+    <div class="wrap">
+      <p class="eyebrow">Support &amp; enquiries</p>
+      <h1 class="display">Say hello</h1>
+    </div>
+  </section>
+
+  <section class="section section--tight">
+    <div class="wrap contact-grid">
+
+      <div class="faq">
+        <p class="eyebrow reveal">FAQ</p>
+        <div class="reveal">
+<details open>
+  <summary>What is The Container?</summary>
+  <p class="faq__a">A purpose-built entertainment venue with a double life. By day: art galleries, fashion exhibitions, the cinema club, live performances and workshops. By night: a music club on a Funktion-One sound system. Same box, two worlds.</p>
+</details>
+<details>
+  <summary>Where is The Container?</summary>
+  <p class="faq__a">North Obhur, Jeddah, Saudi Arabia. The exact pin and directions are shared with every event announcement.</p>
+</details>
+<details>
+  <summary>When do events start and finish?</summary>
+  <p class="faq__a">Day programming usually runs from late morning into the evening. Musical nights open late and run until… late. Exact times are listed on each event.</p>
+</details>
+<details>
+  <summary>How do I get tickets?</summary>
+  <p class="faq__a">Ticket sales move to our official booking partner very soon. Until then, join the list on the events page and follow @thecontainerlive — you'll be first to know when booking opens.</p>
+</details>
+<details>
+  <summary>Is there an age limit?</summary>
+  <p class="faq__a">Musical nights are 18+ with valid ID. Day programming is open to everyone unless an event says otherwise.</p>
+</details>
+<details>
+  <summary>Can I book The Container for a private or brand event?</summary>
+  <p class="faq__a">Yes — the box is modular by nature. Send us a message through the form with your idea, dates and audience size, and our team will come back to you.</p>
+</details>
+<details>
+  <summary>Press, artists &amp; collaborations?</summary>
+  <p class="faq__a">We love ambitious ideas. Use the form and tell us what you're thinking — exhibitions, showcases, residencies, brand takeovers.</p>
+</details>
+        </div>
+      </div>
+
+      <div>
+        <p class="eyebrow reveal">Contact us</p>
+        <!-- Submissions POST to /api/lead → creates a Lead + Contact in Odoo CRM,
+             tagged "Website Inquiry". Configure credentials in DEPLOY.md. -->
+        <form class="form reveal" data-lead="contact" method="post" action="/api/lead" novalidate>
+          <div class="form-row">
+            <div class="field">
+              <label for="f-name">Name</label>
+              <input id="f-name" name="name" type="text" required autocomplete="name" placeholder="Your name">
+            </div>
+            <div class="field">
+              <label for="f-phone">Phone <span class="dim">(optional)</span></label>
+              <input id="f-phone" name="phone" type="tel" autocomplete="tel" placeholder="+00 000 000 000">
+            </div>
+          </div>
+          <div class="field">
+            <label for="f-email">Email</label>
+            <input id="f-email" name="email" type="email" required autocomplete="email" placeholder="your@email.com">
+          </div>
+          <div class="field">
+            <label for="f-msg">Message</label>
+            <textarea id="f-msg" name="message" required placeholder="Tell us everything…"></textarea>
+          </div>
+          <input class="hp" type="text" name="cnt_extra" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <button class="btn btn--solid" type="submit">Send message</button>
+          <p class="form-status" data-status role="status"></p>
+          <p class="form-note">We usually reply within 48 hours. Prefer email? Write to <a href="mailto:support@thecontainer.group">support@thecontainer.group</a> — or DM <a href="https://www.instagram.com/thecontainerlive" target="_blank" rel="noopener noreferrer">@thecontainerlive</a>.</p>
+        </form>
+      </div>
+
+    </div>
   </section>
 </main>
 <div class="hazard" aria-hidden="true"></div>

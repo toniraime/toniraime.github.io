@@ -4,14 +4,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'self'; base-uri 'self'; form-action 'self'; object-src 'none'">
-<title>Lost cargo — The Container</title>
-<meta name="description" content="This page went missing at sea.">
+<title>Media — The Container</title>
+<meta name="description" content="Photos and video from inside The Container — the space, the day gallery, the night sessions.">
 <meta name="theme-color" content="#131419">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/assets/img/apple-touch.png">
 <meta property="og:site_name" content="The Container">
-<meta property="og:title" content="Lost cargo — The Container">
-<meta property="og:description" content="This page went missing at sea.">
+<meta property="og:title" content="Media — The Container">
+<meta property="og:description" content="Photos and video from inside The Container — the space, the day gallery, the night sessions.">
 <meta property="og:type" content="website">
 <meta property="og:image" content="/assets/img/og.png">
 <meta name="twitter:card" content="summary_large_image">
@@ -62,7 +62,7 @@
     <nav class="nav" id="nav" aria-label="Main">
       <a href="/events/">Events</a>
       <a href="/about/">About</a>
-      <a href="/media/">Media</a>
+      <a href="/media/" aria-current="page">Media</a>
       <a href="/store/">Store</a>
       <a href="/contact/">Contact</a>
     </nav>
@@ -79,11 +79,35 @@
   </div>
 </header>
 <main id="main">
-  <section class="lost">
-    <p class="eyebrow">Cargo not found</p>
-    <h1 class="display">404</h1>
-    <p class="lede">This container went missing at sea. The rest of the shipment is safe.</p>
-    <p><a class="btn btn--solid" href="/">Back to the dock</a></p>
+  <section class="page-head">
+    <div class="wrap">
+      <p class="eyebrow">Visuals</p>
+      <h1 class="display">Media</h1>
+    </div>
+  </section>
+
+  <section class="section section--tight">
+    <div class="wrap">
+      <!-- Placeholder tiles — swap each <svg> for a real photo:
+           <img src="/assets/img/media/photo.jpg" alt="describe it" loading="lazy">
+           For the aftermovie: replace the wide tile with your video embed
+           (remember to allow the video host in the CSP header, see DEPLOY.md) -->
+      <div class="media-grid">
+        <figure class="media-item media-item--wide reveal">
+          <video autoplay muted loop playsinline preload="metadata"
+                 poster="/assets/media/teaser-poster.jpg" src="/assets/media/teaser-720.mp4"
+                 aria-label="The Container teaser film"></video>
+          <figcaption class="media-item__tag">Teaser — The Container</figcaption>
+        </figure>
+        <figure class="media-item reveal"><img src="/assets/media/venue-night-tile.jpg" alt="The Container venue at night" loading="lazy"><figcaption class="media-item__tag">The box — night</figcaption></figure>
+        <figure class="media-item reveal" data-delay="1"><img src="/assets/media/venue-day-tile.jpg" alt="The Container in daylight" loading="lazy"><figcaption class="media-item__tag">The box — day</figcaption></figure>
+        <figure class="media-item reveal" data-delay="2"><img src="/assets/media/venue-entrance-tile.jpg" alt="The Container entrance at night" loading="lazy"><figcaption class="media-item__tag">The entrance</figcaption></figure>
+        <figure class="media-item reveal"><img src="/assets/media/venue-front-tile.jpg" alt="The Container facade" loading="lazy"><figcaption class="media-item__tag">The facade</figcaption></figure>
+        <figure class="media-item media-item--wide reveal"><img src="/assets/media/september-programme.jpg" alt="September events programme" loading="lazy"><figcaption class="media-item__tag">September programme</figcaption></figure>
+        <figure class="media-item reveal" data-delay="2"><svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><rect width="400" height="300" fill="#f0f0f3"/><rect x="58" y="172" width="284" height="14" fill="#14151a"/><g fill="none" stroke="#14151a" stroke-width="2.5"><rect x="78" y="186" width="244" height="70"/><path d="M139 186v70M200 186v70M261 186v70"/></g><rect x="286" y="112" width="26" height="60" fill="#5b5f66"/></svg><figcaption class="media-item__tag">The bar</figcaption></figure>
+      </div>
+      <p class="form-note reveal">Fresh photos land on Instagram first — <a href="https://www.instagram.com/thecontainerlive" target="_blank" rel="noopener noreferrer">@thecontainerlive</a>.</p>
+    </div>
   </section>
 </main>
 <div class="hazard" aria-hidden="true"></div>
