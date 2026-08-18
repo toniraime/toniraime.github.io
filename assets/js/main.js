@@ -204,7 +204,7 @@
         btn.innerHTML = '<span class="mini-load"><i></i></span> Loading cargo…';
       }
 
-      fetch("/api/lead", {
+      fetch("https://the-container-leads.tonyraimy.workers.dev/", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(data)

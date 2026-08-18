@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'self'; base-uri 'self'; form-action 'self'; object-src 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'self' https://the-container-leads.tonyraimy.workers.dev; base-uri 'self'; form-action 'self' https://the-container-leads.tonyraimy.workers.dev; object-src 'none'">
 <title>The Container — Culture, Contained.</title>
 <meta name="description" content="The Container — a next-generation cultural venue in North Obhur, Jeddah. Workshops, exhibitions and talks by day; music, fashion shows and live performances on Funktion-One sound by night.">
 <meta name="theme-color" content="#131419">
@@ -263,7 +263,7 @@
         <h2 class="display reveal">Stay<br>updated</h2>
       </div>
       <div>
-        <form data-lead="newsletter" method="post" action="/api/lead" novalidate>
+        <form data-lead="newsletter" method="post" action="https://the-container-leads.tonyraimy.workers.dev/" novalidate>
           <input type="hidden" name="type" value="newsletter">
           <input type="email" name="email" required placeholder="Enter your email address" aria-label="Email address" autocomplete="email">
           <input class="hp" type="text" name="cnt_extra" tabindex="-1" autocomplete="off" aria-hidden="true">
