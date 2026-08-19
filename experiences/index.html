@@ -62,19 +62,12 @@
     <nav class="nav" id="nav" aria-label="Main">
       <a href="/">Home</a>
       <a href="/events/">Events</a>
-      <a href="/experiences/" aria-current="page">Experiences</a>
+      <a class="night-only" href="/experiences/" aria-current="page">Experiences</a>
       <a href="/about/">About</a>
       <a href="/media/">Media</a>
       <a href="/store/">Store</a>
       <a href="/contact/">Contact</a>
     </nav>
-    <button class="mode-toggle" type="button" aria-pressed="true" aria-label="Switch between day and night mode">
-      <svg class="mode-toggle__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
-    <g class="sun"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.4v2.4M12 19.2v2.4M2.4 12h2.4M19.2 12h2.4M4.7 4.7l1.7 1.7M17.6 17.6l1.7 1.7M19.3 4.7l-1.7 1.7M6.4 17.6l-1.7 1.7"/></g>
-    <g class="moon"><path d="M19.8 13.1A7.6 7.6 0 1 1 10.9 4.2a6 6 0 0 0 8.9 8.9z"/></g>
-  </svg>
-      <span class="mode-toggle__label"></span>
-    </button>
     <button class="burger" type="button" aria-label="Menu" aria-expanded="false" aria-controls="nav">
       <span></span><span></span><span></span>
     </button>
@@ -302,7 +295,7 @@
       <p class="foot-h">Navigate</p>
       <ul>
         <li><a href="/events/">Events</a></li>
-        <li><a href="/experiences/">Experiences</a></li>
+        <li class="night-only"><a href="/experiences/">Experiences</a></li>
         <li><a href="/about/">About</a></li>
         <li><a href="/media/">Media</a></li>
         <li><a href="/store/">Store</a></li>

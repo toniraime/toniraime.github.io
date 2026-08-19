@@ -5,6 +5,8 @@
   var mode;
   try { mode = sessionStorage.getItem("tc-mode"); } catch (e) { /* storage unavailable */ }
   if (mode !== "day" && mode !== "night") mode = "night";
+  /* The Experiences page belongs to the night world — always renders night. */
+  if (location.pathname.indexOf("/experiences") === 0) mode = "night";
   document.documentElement.setAttribute("data-mode", mode);
 
   /* loader plays once per browser session */
