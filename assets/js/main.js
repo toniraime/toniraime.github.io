@@ -1,5 +1,5 @@
 /* ==========================================================================
-   THE CONTAINER — interactions
+   THE CONTAINER - interactions
    Vanilla JS, no dependencies. Everything degrades gracefully without JS.
    ========================================================================== */
 (function () {
@@ -183,7 +183,7 @@
       var hp = form.querySelector("input[name=cnt_extra]");
       if (hp && hp.value) { show("Received.", true); form.reset(); return; }
 
-      /* forms carry novalidate — trigger native validation manually */
+      /* forms carry novalidate - trigger native validation manually */
       if (!form.reportValidity()) return;
 
       var field = function (n) {
@@ -215,9 +215,9 @@
             show("Cargo received. We'll get back to you shortly.", true);
             form.reset();
           } else if (res.s === 400) {
-            show("Please double-check your details — a valid email address is required.");
+            show("Please double-check your details - a valid email address is required.");
           } else if (res.s === 503) {
-            show("The form isn't wired up yet — email support@thecontainer.group or DM @thecontainerlive.");
+            show("The form isn't wired up yet - email support@thecontainer.group or DM @thecontainerlive.");
           } else {
             show("Something jammed. Please try again, or email support@thecontainer.group.");
           }
